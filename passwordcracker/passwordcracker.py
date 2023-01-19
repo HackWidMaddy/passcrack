@@ -19,12 +19,13 @@ passwordlist = [a, "1234567890" , "123" , "2021", "!2021", "hello", "admin","1",
 
 
 for x in passwordlist:
- hi =  print(x + a)
+ text1 =  print(x + a)
 
 
 for x in passwordlist:
-      bye =    print(a + x)
+      text2 =    print(a + x)
 
 
 f = open("passcracker.txt", "w")
+f.write(hi,bye)
 f.close()
